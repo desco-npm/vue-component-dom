@@ -1,6 +1,6 @@
 {
   "name": "@desco/vue-component-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add components programmatically to the VueJS DOM",
   "main": "index.js",
   "scripts": {
