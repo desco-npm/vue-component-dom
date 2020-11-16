@@ -1,0 +1,39 @@
+{
+  "name": "@desco/vue-component-dom",
+  "version": "1.0.0",
+  "description": "Add components programmatically to the VueJS DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descodifica/vue-component-dom.git"
+  },
+  "keywords": [
+    "DOM",
+    "Component",
+    "VueJS",
+    "programmatically"
+  ],
+  "author": "Rafael de Almeida Ribeiro Dias <eu@diasrafel.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/descodifica/vue-component-dom/issues"
+  },
+  "homepage": "https://github.com/descodifica/vue-component-dom#readme",
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  }
+}
