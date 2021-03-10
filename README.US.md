@@ -13,7 +13,7 @@
       <br /><br />
       <div align="center">
         <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
-        <img alt="Version 1.2.2" src="https://img.shields.io/static/v1?label=Version&message=1.2.2&color=blue&style=for-the-badge">
+        <img alt="Version 1.2.3" src="https://img.shields.io/static/v1?label=Version&message=1.2.3&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Ready to use 🚀
@@ -100,7 +100,7 @@ export default {
 ### Parameters
 
 | Name | Type | Mandatory | Standard | Description |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | component | Object | Yes | - | The component to be inserted |
 | container | Node | Yes | - | The DOM node where to insert the component |
 | props | JSON | No | {} | JSON containing the values to be passed to the component's properties. |
