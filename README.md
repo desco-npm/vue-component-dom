@@ -100,7 +100,7 @@ export default {
 ### Parâmetros
 
 | Nome | Tipo | Obrigatório | Padrão | Descrição |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | component | Object | Sim | - | O componente a ser inserido |
 | container | Node | Sim | - | O nó do DOM onde inserir o componente |
 | props | JSON | Não | {} | JSON contendo os valores a serem passados para as propriedades do componente. |
