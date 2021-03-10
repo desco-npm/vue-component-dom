@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+  <a href="README.md">
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -9,57 +9,57 @@
     <td><img src="https://i.ibb.co/f2sJyjx/vue-component-dom.png"></td>
     <td>  
       <h1>@desco/vue-component-dom</h1>
-      Pacote que permite adicionar programaticamente componentes ao DOM do VueJS.
+      Package that allows login via Google (Backend).
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.2.1" src="https://img.shields.io/static/v1?label=Versão&message=1.2.1&color=blue&style=for-the-badge">
+        <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
+        <img alt="Version 1.2.1" src="https://img.shields.io/static/v1?label=Version&message=1.2.1&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
-        🚀 Pronto para uso 🚀
+        🚀 Ready to use 🚀
       </h4>
     </td>
   </tr>
 </table>
 
-> <a href="https://github.com/desco-npm" target="_blank">Veja outros projetos NPM aqui.</a>
+> <a href="https://github.com/desco-npm" target="_blank">See other NPM projects here.</a>
 
-> <a href="https://github.com/descoifica" target="_blank">Veja outros projetos aqui.</a>
-
----
-
-## 📋 Tabela de conteúdos
-
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+> <a href="https://github.com/descoifica" target="_blank">See other projects here.</a>
 
 ---
 
-## 🛠️ Tecnologias
+## 📋 Table of Contents
 
-As seguintes tecnologias são utilizadas:
+* [🛠️ Technology](#Technology)
+* [⚙️ Installation](#Installation)
+* [📦 Import](#Import)
+* [📚 How to use](#How-to-use)
+
+---
+
+## 🛠️ Technology
+
+The following technologies are used:
 
 * [VueJs](https://vuejs.org/)
 
 ---
 
-<a name="Instalação"></a>
+<a name="Installation"></a>
 
-## ⚙️ Instalação
+## ⚙️ Installation
 
 ```bash
 npm install --save @desco/vue-component-dom
 ```
 
-> Note que será necessário ter o **NPM** instalado para o comando funcionar.
+> Note that it will be necessary to have **NPM** installed for the command to work.
 
 ---
 
-<a name="Importação"></a>
+<a name="Import"></a>
 
-## 📦 Importação
+## 📦 Import
 
 ```js
 import vueComponentDom from '@desco/vue-component-dom'
@@ -67,9 +67,9 @@ import vueComponentDom from '@desco/vue-component-dom'
 
 ---
 
-<a name="Como-Usar"></a>
+<a name="How-To-Use"></a>
 
-## 📚 Como Usar
+## 📚 How to use
 
 ```html
 <template>
@@ -97,22 +97,20 @@ export default {
 }
 ```
 
-### Parâmetros
+### Parameters
 
-| Nome | Tipo | Obrigatório | Padrão | Descrição |
-|---|---|---|---|---|---|
-| component | Object | Sim | - | O componente a ser inserido |
-| container | Node | Sim | - | O nó do DOM onde inserir o componente |
-| props | JSON | Não | {} | JSON contendo os valores a serem passados para as propriedades do componente. |
-| params | Object | Não | { type: 'append', class: '', } | Parâmetros extras, veja na tabela abaixo |
-params.position | String | Não | 'append' | Se o componente será inserido no início ou final do container. Aceita: `append` e `prepend` |
-params.class | String | Não | '' | Classe personalizável para o container do componente inserido |
+| Name | Type | Mandatory | Standard | Description |
+| --- | --- | --- | --- | --- | --- |
+| component | Object | Yes | - | The component to be inserted |
+| container | Node | Yes | - | The DOM node where to insert the component |
+| props | JSON | No | {} | JSON containing the values to be passed to the component's properties. |
+| params | Object | No | {type: 'append', class: '',} | Extra parameters, see the table below |
+params.position | String | No | 'append' | Whether the component will be inserted at the beginning or end of the container. Accepts: `append` and` prepend` |
+params.class | String | No | '' | Customizable class for the inserted component container |
 
-> Note que `props` deve usar os nomes das propriedades e não dos atributos.
+> Note that `props` must use the names of properties and not attributes.
 
----
-
-## Autor
+## Author
 
 <table>
   <tr>
@@ -131,7 +129,7 @@ params.class | String | Não | '' | Classe personalizável para o container do c
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
         <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
