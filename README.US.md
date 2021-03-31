@@ -110,6 +110,8 @@ export default {
 
 > Note that `props` must use the names of properties and not attributes.
 
+---
+
 ## Author
 
 <table>
