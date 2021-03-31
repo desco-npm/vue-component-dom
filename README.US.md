@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,10 +30,10 @@
 
 ## 📋 Table of Contents
 
-* [🛠️ Technology](#Technology)
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [🛠️ Technology](#Technology)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -41,7 +41,7 @@
 
 The following technologies are used:
 
-* [VueJs](https://vuejs.org/)
+- [VueJs](https://vuejs.org/)
 
 ---
 
@@ -62,7 +62,7 @@ npm install --save @desco/vue-component-dom
 ## 📦 Import
 
 ```js
-import vueComponentDom from '@desco/vue-component-dom'
+import vueComponentDom from "@desco/vue-component-dom";
 ```
 
 ---
@@ -99,14 +99,14 @@ export default {
 
 ### Parameters
 
-| Name | Type | Mandatory | Standard | Description |
-| --- | --- | --- | --- | --- | 
-| component | Object | Yes | - | The component to be inserted |
-| container | Node | Yes | - | The DOM node where to insert the component |
-| props | JSON | No | {} | JSON containing the values to be passed to the component's properties. |
-| params | Object | No | {type: 'append', class: '',} | Extra parameters, see the table below |
-params.position | String | No | 'append' | Whether the component will be inserted at the beginning or end of the container. Accepts: `append` and` prepend` |
-params.class | String | No | '' | Customizable class for the inserted component container |
+| Name            | Type   | Mandatory | Standard                     | Description                                                                                                      |
+| --------------- | ------ | --------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| component       | Object | Yes       | -                            | The component to be inserted                                                                                     |
+| container       | Node   | Yes       | -                            | The DOM node where to insert the component                                                                       |
+| props           | JSON   | No        | {}                           | JSON containing the values to be passed to the component's properties.                                           |
+| params          | Object | No        | {type: 'append', class: '',} | Extra parameters, see the table below                                                                            |
+| params.position | String | No        | 'append'                     | Whether the component will be inserted at the beginning or end of the container. Accepts: `append` and` prepend` |
+| params.class    | String | No        | ''                           | Customizable class for the inserted component container                                                          |
 
 > Note that `props` must use the names of properties and not attributes.
 
@@ -129,10 +129,10 @@ params.class | String | No | '' | Customizable class for the inserted component 
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">

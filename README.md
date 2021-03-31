@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Pacote que permite adicionar programaticamente componentes ao DOM do VueJS.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.2.3" src="https://img.shields.io/static/v1?label=Versão&message=1.2.3&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.2.3" src="https://img.shields.io/static/v1?label=Vers%C3%A3o&message=1.2.3&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso 🚀
@@ -30,10 +30,10 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+- [🛠️ Tecnologias](#Tecnologias)
+- [⚙️ Instalação](#Instalação)
+- [📦 Importação](#Importação)
+- [📚 Como Usar](#Como-Usar)
 
 ---
 
@@ -41,7 +41,7 @@
 
 As seguintes tecnologias são utilizadas:
 
-* [VueJs](https://vuejs.org/)
+- [VueJs](https://vuejs.org/)
 
 ---
 
@@ -62,7 +62,7 @@ npm install --save @desco/vue-component-dom
 ## 📦 Importação
 
 ```js
-import vueComponentDom from '@desco/vue-component-dom'
+import vueComponentDom from "@desco/vue-component-dom";
 ```
 
 ---
@@ -99,14 +99,14 @@ export default {
 
 ### Parâmetros
 
-| Nome | Tipo | Obrigatório | Padrão | Descrição |
-|---|---|---|---|---|
-| component | Object | Sim | - | O componente a ser inserido |
-| container | Node | Sim | - | O nó do DOM onde inserir o componente |
-| props | JSON | Não | {} | JSON contendo os valores a serem passados para as propriedades do componente. |
-| params | Object | Não | { type: 'append', class: '', } | Parâmetros extras, veja na tabela abaixo |
-params.position | String | Não | 'append' | Se o componente será inserido no início ou final do container. Aceita: `append` e `prepend` |
-params.class | String | Não | '' | Classe personalizável para o container do componente inserido |
+| Nome            | Tipo   | Obrigatório | Padrão                         | Descrição                                                                                   |
+| --------------- | ------ | ----------- | ------------------------------ | ------------------------------------------------------------------------------------------- |
+| component       | Object | Sim         | -                              | O componente a ser inserido                                                                 |
+| container       | Node   | Sim         | -                              | O nó do DOM onde inserir o componente                                                       |
+| props           | JSON   | Não         | {}                             | JSON contendo os valores a serem passados para as propriedades do componente.               |
+| params          | Object | Não         | { type: 'append', class: '', } | Parâmetros extras, veja na tabela abaixo                                                    |
+| params.position | String | Não         | 'append'                       | Se o componente será inserido no início ou final do container. Aceita: `append` e `prepend` |
+| params.class    | String | Não         | ''                             | Classe personalizável para o container do componente inserido                               |
 
 > Note que `props` deve usar os nomes das propriedades e não dos atributos.
 
@@ -131,10 +131,10 @@ params.class | String | Não | '' | Classe personalizável para o container do c
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
